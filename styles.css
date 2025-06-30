@@ -1,0 +1,17 @@
+/* Custom styles for Desmanche Rio Das Pedras clone */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a:hover {
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  section.grid {
+    grid-template-columns: 1fr !important;
+  }
+}
